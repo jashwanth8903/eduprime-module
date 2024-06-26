@@ -1,0 +1,17 @@
+post http://localhost:5000/user-api/user
+Content-Type: application/json
+
+{
+    "username":"testuser",
+    "password":"testuser",
+    "email":"testuser@gmail.com"
+}
+
+###
+post http://localhost:5000/user-api/login
+Content-Type: application/json
+
+{
+    "username":"testuser",
+    "password":"testuser"
+}
